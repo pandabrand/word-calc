@@ -5,10 +5,13 @@ class WordCalc
   def initialize
     self.input  = $stdin
     self.output = $stdout
+  end
+
+  def welcome
     self.output.puts "Please use numbers '{1,2,3..}.\n'plus','minus','times', or 'divide' are the operators.\n'help' for instructions.\n'quit' to exit."
   end
 
-  def start()
+  def start
     output.puts "What would you like to calculate?"
     entry = input.gets.chomp
     validate(entry)
