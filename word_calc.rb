@@ -38,5 +38,5 @@ class WordCalc
   end
 end
 
-calc = WordCalc.new
-calc.start
+#calc = WordCalc.new
+#calc.start
